@@ -2,10 +2,8 @@
 <html>
 <head>
 <title>아아아</title>
+
 <style>
-* {
-  box-sizing: border-box;
-}
 
 body {
   font-family: Arial;
@@ -105,13 +103,16 @@ body {
     width: 100%;
   }
 }
+#grad1 {
+ height: 55px;
+ background-color: white;
+ background-image: linear-gradient(to right, blue, indigo, violet);}
 </style>
 </head>
 <body>
 
 <div class="header">
-  <h1>나의 홈페이지</h1>
-  <p>Resize the browser window to see the effect.</p>
+  <h1> <div id="grad1" style="text-align:center;margin:auto;color:#ff00ff;font-size:40px;font-weight:bold">나의 홈페이지</h1>
 </div>
 
 <div class="topnav">
@@ -119,8 +120,8 @@ body {
   <a href="#">Link</a>
   <a href="#">Link</a>
   <a href="#" style="float:right">Link</a>
-</div>
 
+</div>
 <div class="row">
   <div class="leftcolumn">
     <div class="card">
